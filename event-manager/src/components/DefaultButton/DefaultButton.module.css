@@ -1,0 +1,13 @@
+.button{
+    width: 200px;
+    height: 40px;
+    background-color: #e57129;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+}
+.button:hover{
+    background-color: #f7a04e;
+}

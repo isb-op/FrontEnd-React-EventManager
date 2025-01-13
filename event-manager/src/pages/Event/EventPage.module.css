@@ -1,0 +1,148 @@
+.container {
+  font-family: Poppins, sans-serif;
+}
+
+.topImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  margin-bottom: 10px;
+  padding: 7px;
+  margin-left: 420px;
+  margin-right: 100%;
+  border-radius: 5px;
+  width: 40%;
+  font-size: 16px;
+}
+
+.addButton {
+  background-color: #e57129;
+  color: white;
+  padding: 10px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 640px;
+  margin-bottom: 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+
+}
+
+.addButton:hover {
+  background-color: #f7a04e;
+}
+
+.eventGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 90px;
+  padding: 50px;
+}
+
+.eventCard p {
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+  font-family: Poppins, sans-serif;
+}
+
+.eventCard {
+  background-color: #fff;
+  border: 1px solid #dad5d5;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.eventActions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.editButton,
+.deleteButton {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #e57129;
+}
+
+.editButton:hover {
+  background-color: #f7a04e;
+}
+
+.deleteButton:hover {
+  background-color: #e75541;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+}
+
+.modalContent {
+  background-color: rgb(255, 251, 251);
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+
+}
+
+.modalContent input {
+  padding: 5px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.modalContent input {
+  margin: 0;
+}
+
+.modalButton {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #e57129;
+  width: 100px;
+}
+
+.modalButton:hover {
+  background-color: #f7a04e;
+}
