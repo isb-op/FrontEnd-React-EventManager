@@ -28,7 +28,7 @@ export const AuthProvider = ({children}) => {
         try {
             const response = await api.post("/account/sign-in", { login, password });
     
-            const { token, id } = response.data; // Certifique-se de que esses campos existem no retorno
+            const { token, id } = response.data; 
             setId(id);
             setToken(token);
     
